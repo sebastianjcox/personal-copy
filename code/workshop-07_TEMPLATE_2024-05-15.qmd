@@ -58,7 +58,11 @@ class(abalone)
 
 Compare the three ways of looking at data below. What's different about the outputs, and what's similar?  
 
-_insert response below_
+All three of the operators give information about the abalone data.
+str() tells you the columns in the data frame and some of their values
+glimpse() tells you the number of rows and columns in the data frame, and lists
+all of the values for each column along with their names
+class() tells you that it is a table
 
 **COMMIT AND PUSH YOUR CHANGES!**
 
